@@ -49,6 +49,10 @@
     #import <FirebaseDatabase/FirebaseDatabase.h>
   #endif
 
+  #if __has_include(<FirebaseDynamicLinks/FirebaseDynamicLinks.h>)
+    #import <FirebaseDynamicLinks/FirebaseDynamicLinks.h>
+  #endif
+
   #if __has_include(<FirebaseFirestore/FirebaseFirestore.h>)
     #import <FirebaseFirestore/FirebaseFirestore.h>
   #endif
